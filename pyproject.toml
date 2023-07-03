@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling","requests"]
+build-backend = "hatchling.build"
+[project]
+name = "RoyalePy"
+version = "0.0.1"
+authors = [
+  { name="Jacob Adams", email="jtcool0920@gmail.com" },
+]
+description = "This is a very basic wrapper for the Clash Royale API written in Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jtadams02/RoyalePy"
+"Bug Tracker" = "https://github.com/jtadams02/RoyalePy/issues"
