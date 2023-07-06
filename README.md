@@ -35,7 +35,7 @@ My goal for this API Wrapper is to allow newbies like me able to make Clash Roya
   - Returns: This returns a shortened dictionary of the JSON response with only a few details. The setup of this dictionary is displayed below:
     - ``['tag']`` Which contains the ID tag of the player. This will be the same as the ID passed as the argument, but this will have a '#' in front of it
     - ``['name']`` Which contains the username of the player
-    - ``['trohpies']`` Which contains an integer count of the players current trophies
+    - ``['trophies']`` Which contains an integer count of the players current trophies
     - ``['clan_name']`` Which contains the name of the clan a user is in. If they are not in a clan, this will have a value of None. I suggest checking to see if the user is in a clan and changing how you use this response
     - ``['league']`` Which will contain the name of the league the user is in
     - ``['uc_trophies']`` Which will contain the current trophies of the user IF they are in league 10. If they are not, this will be None
