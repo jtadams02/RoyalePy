@@ -26,7 +26,7 @@ class ClashAPI(object):
         if not test_request:
             raise ConnectionError("API Key is not valid")
         else:
-            print("Success")
+            print("API Key Authenticated")
 
         
 
